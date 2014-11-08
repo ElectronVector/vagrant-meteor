@@ -34,7 +34,7 @@ $ meteor create myapp
 Run the script to setup the local folder:
 
 ```
-$ /vagrant/setup-local.sh myapp 
+$ setup-local.sh myapp 
 ```
 
 Run your meteor app:
