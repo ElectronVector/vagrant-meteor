@@ -43,4 +43,5 @@ Run your meteor app:
 $ cd myapp
 $ meteor
 ```
-Point a browser on your host to http://localhost:3000. You should see the meteor app.
+
+Point a browser on your host to [http://localhost:3000](http://localhost:3000). You should see the meteor app.
