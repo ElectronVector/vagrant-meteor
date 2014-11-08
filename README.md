@@ -1,4 +1,6 @@
-This is Vagrantfile for running Meteor apps on Ubuntu 14.04 from within Vagrant.
+This is a Vagrant configuration for running Meteor apps on Ubuntu 14.04 from within Vagrant.
+
+## Background
 
 By default, a Meteor app can't be run in the host-shared vagrant folder, because there are issues with the permissions for MongoDB. To work around this, the Vagrantfile enables symlinks on the shared folder.
 
@@ -11,14 +13,22 @@ The Vagrantfile also:
 ## Instructions
 
 Create a meteor project in the /vagrant shared folder:
-    $ cd /vagrant
-    $ meteor create myapp
+
+```
+$ cd /vagrant
+$ meteor create myapp
+```
 
 Run the script to setup the local folder:
-    $ /vagrant/setup-local.sh myapp 
+
+```
+$ /vagrant/setup-local.sh myapp 
+```
 
 Run your meteor app:
-    $ cd myapp
-    $ meteor
 
+```
+$ cd myapp
+$ meteor
+```
 Point a browser on your host to http://localhost:3000. You should see the meteor app.
