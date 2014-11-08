@@ -1,4 +1,4 @@
-This is a Vagrant configuration for running Meteor apps on Ubuntu 14.04 from within Vagrant.
+This is a Vagrant configuration for running Meteor apps on Ubuntu 14.04, for use with a Windows host.
 
 ## Background
 
@@ -11,6 +11,18 @@ The Vagrantfile also:
 **Note: On Windows, the shell that runs `vagrant up` and `vagrant ssh` must be run as administrator.**
 
 ## Instructions
+
+Start up the Vagrant VM:
+
+```
+> vagrant up
+```
+
+SSH into the Vagrant VM:
+
+```
+> vagrant ssh
+```
 
 Create a meteor project in the /vagrant shared folder:
 
